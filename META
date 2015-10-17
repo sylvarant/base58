@@ -1,0 +1,4 @@
+version = "0.1.0"
+description = "Encode and decode into Base58"
+archive(byte) = "base58.cma"
+archive(native) = "base58.cmxa"
