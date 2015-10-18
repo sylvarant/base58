@@ -28,10 +28,14 @@ TESTS = t/01-encodetest.native t/02-decodetest.native
 #============================================
 
 library: 
+	$(OCAMLBUILD) $(PACKAGE).cma
+	$(OCAMLBUILD) $(PACKAGE).cmxa
+
+coverage:
 	$(OCAMLBUILD) $(COVERAGE) $(PACKAGE).cma
 	$(OCAMLBUILD) $(COVERAGE) $(PACKAGE).cmxa
 
-tests:
+tests: coverage
 	$(OCAMLBUILD) $(COVERAGE) -no-links -pkg testsimple $(TESTS)
 
 
