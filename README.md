@@ -1,7 +1,7 @@
 
 Base58
 ==========================================
-[![Build Status](https://travis-ci.org/sylvarant/base58.svg)](https://travis-ci.org/sylvarant/captureio) [![Coverage Status](https://coveralls.io/repos/sylvarant/base58/badge.svg?branch=master&service=github)](https://coveralls.io/github/sylvarant/base58?branch=master) 
+[![Build Status](https://travis-ci.org/sylvarant/base58.svg)](https://travis-ci.org/sylvarant/captureio) [![Coverage Status](https://coveralls.io/repos/sylvarant/base58/badge.svg?branch=master&service=github)](https://coveralls.io/github/sylvarant/base58?branch=master) [![artistic](https://img.shields.io/badge/license-Artistic%202.0-blue.svg?style=flat)](https://opensource.org/licenses/Artistic-2.0)
 ---------------------------------------------------------------------------
 
 Usage
